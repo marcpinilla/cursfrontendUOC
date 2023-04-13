@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marc Pinilla - Home</title>
+    <title>Marc Pinilla - Contacte</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 <body>
     <header id="header">
         <nav class="navHeader">
-            <a href="index.html" class="home active" alt="Home">
+            <a href="index.html" class="home" alt="Home">
                 <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg">
                     <g id="Layer_3" data-name="Layer 3">
                         <path d="m11 14.414v7.435a.152.152 0 0 0 .152.151h9.7a.152.152 0 0 0 .148-.151v-7.435l-5-5z"/><path d="m16 1a15 15 0 1 0 15 15 15.017 15.017 0 0 0 -15-15zm8.207 15.207a.95.95 0 0 1 -1.207.138v5.5a2.154 2.154 0 0 1 -2.152 2.155h-9.7a2.154 2.154 0 0 1 -2.148-2.151v-5.5a.986.986 0 0 1 -1.207-.138 1 1 0 0 1 0-1.414l1.5-1.5 6-6a1 1 0 0 1 1.414 0l6 6 1.5 1.5a1 1 0 0 1 0 1.41z"/>
@@ -22,7 +22,7 @@
                 </svg>
             </a>
             <a href="cv.html" class="" alt="CV">CV</a>
-            <a href="contacte.html" class="" alt="Contacte">Contacte</a>
+            <a href="contacte.html" class="active" alt="Contacte">Contacte</a>
         </nav>
         <figure class="portalSlider">
             <picture class="portalSlider__item">
@@ -30,106 +30,35 @@
                 <img class="portalSlider__image" src="assets/img/slider-mobile.png" alt="El meu portfoli" />
             </picture>
             <figcaption class="portalSlider__text">
-                <h1 class="portalSlider__title">El meu portfoli</h1>
+                <h1 class="portalSlider__title">Contacte</h1>
             </figcaption>
         </figure>
     </header>
     <section id="container-main">
-        <section class="container hola">
-            <div class="line">
-                <h2 class="text-center title">Hola</h2>
-                <div class="hola__content">              
-                    <picture class="hola__image">
-                        <img src="assets/img/hola.jpg" alt="El meu portfoli" />
-                    </picture>
-                    <article class="hola__text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda harum excepturi sequi aut voluptatem, delectus reprehenderit magni laudantium accusantium, asperiores molestias accusamus dignissimos mollitia sint veritatis! Aliquam iste, quo beatae, consectetur dolore ullam cupiditate a quisquam aspernatur tempora soluta voluptas eos magnam sed numquam amet! Impedit exercitationem quidem at.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda harum excepturi sequi aut voluptatem, delectus reprehenderit magni laudantium accusantium, asperiores molestias accusamus dignissimos mollitia sint veritatis! Aliquam iste, quo beatae, consectetur dolore ullam cupiditate a quisquam aspernatur tempora soluta voluptas eos magnam sed numquam amet! Impedit exercitationem quidem at.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <section class="container projectes">
-            <div class="line">
-                <h2 class="text-center title">Els meus projectes</h2>
-                <div class="cards">
-                    <article class="card">
-                        <figure>
-                            <img src="assets/img/projecte1.jpg">
-                        </figure>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quidem delectus, nostrum assumenda odio aut doloribus accusamus alias quibusdam incidunt, cupiditate nesciunt porro provident illo ipsa vero, iure quis! Tempora.</p>
-                        <button class="button">Veure més</button>
-                    </article>
-                    <article class="card">
-                        <figure>
-                            <img src="assets/img/projecte2.jpg">
-                        </figure>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quidem delectus, nostrum assumenda odio aut doloribus accusamus alias quibusdam incidunt, cupiditate.</p>
-                        <button class="button">Veure més</button>
-                    </article>
-                    <article class="card">
-                        <figure>
-                            <img src="assets/img/projecte3.jpg">
-                        </figure>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quidem delectus, nostrum assumenda odio aut doloribus accusamus alias quibusdam incidunt, cupiditate nesciunt porro provident illo ipsa vero, iure quis! Tempora.</p>
-                        <button class="button">Veure més</button>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <section class="coneixements line">
+        <section class="line">
             <div class="container">
-                <div class="coneixements__content">
-                    <div class="coneixements__svg">
-                        <svg class="round" viewBox="0 0 100 100" width="200" height="200" data-percent="90" stroke="orange" stroke-dasharray="226  1000">
-                            <circle cx="50" cy="50" r="40"></circle>  
-                        </svg>
-                        <p class="coneixements__text">HTML</p>
+                <h2 class="text-center title">Dades personals</h2>
+                <form action="" class="contactForm">
+                    <div class="form-item">
+                        <label for="fname">Nom</label>
+                        <input type="text" id="fname" name="fname" value="Escriu el teu nom">
                     </div>
-                    <div class="coneixements__svg">
-                        <svg class="round" viewBox="0 0 100 100" width="200" height="200" data-percent="85" stroke="blue" stroke-dasharray="213 1000">
-                            <circle cx="50" cy="50" r="40"></circle>  
-                        </svg>
-                        <p class="coneixements__text">CSS</p>
+                    <div class="form-item">
+                        <label for="lname">Correu electrònic</label>
+                        <input type="email" id="lname" name="lname" value="Correu electrònic">
                     </div>
-                    <div class="coneixements__svg">
-                        <svg class="round" viewBox="0 0 100 100" width="200" height="200" data-percent="65" stroke="yellow" stroke-dasharray="175 1000">
-                            <circle cx="50" cy="50" r="40"></circle>  
-                        </svg>
-                        <p class="coneixements__text">JS</p>
+                    <div class="form-item">
+                        <label for="edit-cuerpo-mensaje">Comentaris</label>
+                        <textarea id="edit-cuerpo-mensaje" name="cuerpo_mensaje"></textarea>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="container aficions">
-            <div class="line">
-                <h2 class="text-center title">Les meves aficions</h2>
-                <div class="aficions__content">              
-                    <figure class="aficions__item">
-                        <h3>Viatjar</h3>
-                        <img src="assets/img/abstract-shape.svg" alt="El meu portfoli" />
-                    </figure>
-                    <figure class="aficions__item">
-                        <h3>Mirar series</h3>
-                        <img src="assets/img/abstract-shape.svg" alt="Mirar series" />
-                    </figure>
-                    <figure class="aficions__item">
-                        <h3>Música</h3>
-                        <img src="assets/img/abstract-shape.svg" alt="Música" />
-                    </figure>
-                    <figure class="aficions__item">
-                        <h3>Pixelart css</h3>
-                        <img src="assets/img/abstract-shape.svg" alt="Pixelart css" />
-                    </figure>
-                    <figure class="aficions__item">
-                        <h3>Llegir</h3>
-                        <img src="assets/img/abstract-shape.svg" alt="Llegir" />
-                    </figure>
-                    <figure class="aficions__item">
-                        <h3>Taijitsu</h3>
-                        <img src="assets/img/abstract-shape.svg" alt="Taijitsu" />
-                    </figure>
-                </div>
+                    <div class="form-item legal">
+                        <input type="checkbox" id="edit-acepto-las-politicas-de-privacidad">
+                        <label for="edit-acepto-las-politicas-de-privacidad" >He llegit i accepto la <a href="#" target="_blank">política de Privacitat</a></label>                    
+                    </div>
+                    <div class="text-center">
+                        <input class="button" type="submit" value="Enviar">
+                    </div>
+                </form>
             </div>
         </section>
     </section>
